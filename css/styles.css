@@ -1,57 +1,97 @@
 /* Global */
-* {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
 :root {
+  /* Fonts */
+  --f-karla: "Karla", sans-serif;
+  /* Colors */
   --c-cyan: hsl(179, 62%, 43%);
   --c-bright-yallow: hsl(71, 73%, 54%);
+  --c-white: #fff;
+  /* Tools */
   --opacity: 75%;
 }
 
 body {
-  font-family: "Karla", sans-serif;
+  font-family: var(--f-karla);
   display: grid;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  line-height: 1.6;
 }
 
-/* Main */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
 
 main {
   margin: auto;
-  width: min(500px, 70%);
-  /* width: 70%;
-  max-width: 600px; */
-  border: 1px solid #979797;
+  width: min(90%, 70.5rem);
+  /* width: 70%; //full width of browser
+  max-width: 600px; this means it will be 100% of the browser until 960px then it will stop expanding
+   */
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 81, 171, 0.15);
 }
+
+section {
+  padding: 1.764rem 1.512rem;
+}
+
+.container {
+  margin-inline: auto;
+}
+
+.bg-light {
+  color: var(--c-white);
+  background-color: var(--c-cyan);
+}
+
+.bg-blue {
+  color: var(--c-white);
+  background-color: var(--c-cyan);
+}
+
+.bg-btn {
+  color: var(--c-white);
+  background-color: var(--c-bright-yallow);
+}
+
+/* layout */
 
 /* Section */
 
 section {
-  padding: 28px 24px;
+  /* padding: 28px 24px; */
   color: #fff;
-}
-
-section.dark-blue {
-  background-color: var(--c-cyan);
-}
-
-section.light-blue {
-  background-color: var(--c-cyan);
-  opacity: 0.88;
 }
 
 section a {
   display: block;
   text-decoration: none;
-  background-color: var(--c-bright-yallow);
   box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 10%);
-  border-radius: inherit;
+  border-radius: 5px;
   color: #fff;
   text-align: center;
-  padding: 14px;
+  padding: 0.882rem;
   font-weight: 700;
 }
 
@@ -62,13 +102,15 @@ p {
 }
 
 h3 {
-  font-size: 18px;
-  font-weight: 700;
+  /* font-size: 18px; */
+  font-size: 1.134em;
+  /* font-weight: 700; */
 }
 
 p strong {
+  font-size: 2em;
   font-size: 32px;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 section .cyan {
@@ -83,7 +125,7 @@ section .yellow {
 ul {
   opacity: 75%;
   list-style: none;
-  line-height: 20px;
+  line-height: 1.5;
   padding: 0;
 }
 
@@ -97,7 +139,7 @@ ul {
       "one-section one-section"
       "tow-section three-section";
   }
-  .one-section {
+  .price__hero {
     grid-area: one-section;
   }
   .tow-section {

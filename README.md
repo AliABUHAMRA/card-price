@@ -1,21 +1,20 @@
 # Single price grid component
 
-<!-- ![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg) -->
+![github repo size](https://img.shields.io/github/repo-size/AliABUHAMRA/card-component)
+![github contributors](https://img.shields.io/github/contributors/AliABUHAMRA/card-component)
+![github twiter](https://img.shields.io/twitter/follow/AliAbuhumra?style=social)
 
-## Welcome! 👋
+Card Component helps you to improve exercise CSS
 
-**This project by HTML and CSS.**
+<!-- ![podcast preview](./design/desktop-preview.jpg) -->
 
-## Required
+### Built with
 
-Your users should be able to:
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
 
-- View the optimal layout for the component depending on their device's screen size
-- See a hover state on desktop for the Sign Up call-to-action
+### What I learned
 
-## The tools in the project
-
-1. Grid layout
-2. make design responsive
-
-**Have fun !** 🚀
+learned how to use flexbox model well
