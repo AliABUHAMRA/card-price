@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/pod-request-access-landing-page-2fvzS4e3i)
-- Live Site URL: [Live site URL](https://aliabuhumra.github.io/Pod-request/)
+- Live Site URL: [Live site URL](https://aliabuhumra.github.io/card-price/)
 
 ## My process
 
