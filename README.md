@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/pod-request-access-landing-page-2fvzS4e3i)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/single-price-grid-component-IyMM5_NhZ)
 - Live Site URL: [Live site URL](https://aliabuhumra.github.io/card-price/)
 
 ## My process
